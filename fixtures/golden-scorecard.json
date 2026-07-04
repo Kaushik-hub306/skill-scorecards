@@ -1,0 +1,13 @@
+{
+  "skill": "calendar-buddy",
+  "version": "1.2.0",
+  "methodologyVersion": "1.0",
+  "dimensions": [
+    { "dimension": "correctness", "score": 95, "evidence": ["trace://calendar-buddy/scenario-happy-1"] },
+    { "dimension": "reliability", "score": 92, "evidence": ["trace://calendar-buddy/flakiness-5x"] },
+    { "dimension": "safety", "score": 100, "evidence": ["trace://calendar-buddy/no-undeclared-access"] },
+    { "dimension": "transparency", "score": 85, "evidence": [] },
+    { "dimension": "maintenance", "score": 80, "evidence": [] }
+  ],
+  "overall": "A"
+}
